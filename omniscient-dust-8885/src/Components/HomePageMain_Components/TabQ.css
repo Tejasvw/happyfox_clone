@@ -1,0 +1,40 @@
+.trigger {}
+
+.popup {
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+
+
+}
+
+.cont {
+    margin-bottom: 50px;
+}
+
+.popupFlex {
+
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: normal 0.3s slide;
+}
+
+
+
+.popupImgBox img {
+    width: 100%;
+    height: 300px
+}
+
+@keyframes slide {
+    from {
+        opacity: 0%;
+        transform: translate(40%);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translate(0%);
+    }
+}
